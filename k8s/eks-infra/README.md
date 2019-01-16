@@ -38,9 +38,9 @@ kubectl apply -f patch-configmap-l7.yaml
 kubectl apply -f service-l7.yaml
 
 # Create external DNS and node-policy
-chmod +x put-node-policy.sh        \\ need to fix
-./put-node-policy.sh               \\ need to fix
-kubectl apply -f external-dns.yaml \\ need to fix
+chmod +x put-node-policy.sh        
+./put-node-policy.sh               
+kubectl apply -f external-dns.yaml 
 ```
 
 ###Ingress-Controller DNS
